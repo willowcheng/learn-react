@@ -1,0 +1,13 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
